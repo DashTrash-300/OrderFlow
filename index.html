@@ -1,1 +1,35 @@
 
+<!doctype html>
+<?php
+	include_once 'serverside/connect_db.php';
+?>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Commercial Orders | TBR NZ</title>
+</head>
+
+<body>
+	<h1>Tasman Bay Roses — Wholesaler Portal</h1>
+		<p>Please enter your customer ID below to proceed.</p>
+	
+<form action="pulldata.php" method="post">
+			Customer Name: <input type ="text" name="cname"><br>
+		<input type="submit">
+	</form>
+	
+	<h2>Customer Details</h2>
+	Welcome 
+<h3>Current Order List</h3>
+	
+	<table>
+		<thead>
+			<tr>
+			<td>Customer ID</td><td>Customer Name</td><td>Customer Details</td></tr>
+		</thead>
+			<tr><td>CDX552</td><td>Name?</td><td>Whatever</td></tr>
+			<tr><td><a href="logon.link">Load Customer Details</a></td></tr>
+		</table>
+</body>
+</html>
+
