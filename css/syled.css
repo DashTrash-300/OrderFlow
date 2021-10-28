@@ -1,0 +1,41 @@
+/* CSS Document */
+html {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+.form-holder {
+	margin: auto;
+	margin-top: 100px;
+	width: 500px;
+	outline: groove 1px black;
+					}
+.form-head {
+	background-color: #2acaea;
+	color: aliceblue;
+	margin: auto;
+	height: 50px;
+}
+div {
+	
+}
+
+#logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+
+}
+
+#content-main {
+	padding:7px;
+}
+
+.button1 {
+  background-color:#2acaea;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+	font-size: 14px;
+}
