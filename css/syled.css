@@ -37,5 +37,7 @@ div {
   padding: 10px 20px;
   text-align: center;
   display: inline-block;
-	font-size: 14px;
+border-radius: 2px;
+	display: flex;
+	alig
 }
